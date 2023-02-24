@@ -48,7 +48,7 @@
 .logo{
     position: absolute;
     right: 60px;
-    top: 74px;
+   bottom: 35%;
     height: 240px;
     width: 300px;
 }
@@ -273,7 +273,7 @@
     height: 50px;
     width: 240px;
     padding: 12px;
-   background-color: #070353ef;
+   /* background-color: #070353ef; */
     border: none;
     border-bottom: solid 4px rgb(255, 82, 2);
 }
@@ -288,7 +288,7 @@
     width: 745px;
     height: 125px;
     padding: 12px;
-    background-color: #070353ef;
+    /* background-color: #070353ef; */
     border: none;
     border-bottom: solid 4px rgb(255, 82, 2);
 }
