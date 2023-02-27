@@ -48,7 +48,7 @@
 .logo{
     position: absolute;
     right: 60px;
-   bottom: 35%;
+    bottom: 35%;
     height: 240px;
     width: 300px;
 }
@@ -56,8 +56,7 @@
 .wrapper-slogan{
     position: absolute;
     font-weight: bold;
-    
-    bottom: 35%;
+    bottom: 34%;
     display: flex;
     flex-direction: column;
     max-width: 880px;
@@ -114,23 +113,32 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 28px;
 }
 
 .imagem-cabo{
-    height: 280px;
-    width: 280px;
-    border-radius: 50%;
+    height: 300px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px
 }
 
 
 .card-sobre{
-    height: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-between;
+    height: 300px;
     background-color:rgb(255, 82, 2) ;
     color: white;
     max-width: 560px;
     padding: 24px 18px;
-    border-radius: 6px;
-    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.911);
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.card-sobre button{
+    width: 240px;
 }
 
 .secao-servicos{
@@ -138,7 +146,7 @@
     flex-direction: column;
     align-items: center;
     gap: 24px;
-    margin: 24px 0;
+    margin: 48px 0;
 }
 
 .secao-servicos div{
@@ -288,7 +296,6 @@
     width: 745px;
     height: 125px;
     padding: 12px;
-    /* background-color: #070353ef; */
     border: none;
     border-bottom: solid 4px rgb(255, 82, 2);
 }

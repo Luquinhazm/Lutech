@@ -17,7 +17,6 @@
     font-size: 1rem;
     line-height: 1.5;
     color: #333;
-    background-color: #fff;
   }
   
   /* Elementos HTML padrão */
@@ -51,4 +50,5 @@
   button{
     border: none;
     color: black;
+    cursor: pointer;
   }
