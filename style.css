@@ -5,7 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 60px;
+    height: 40px;
 }
 
 .header-principal nav{
@@ -17,7 +17,6 @@
     padding: 0px 12px;
     height: 30px;
     border-radius: 8px;
-    
 }
 
 .header-principal ul{
@@ -33,16 +32,16 @@
 
 .secao-inicio{
     position: relative;
-    min-height: 103vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     background-color: rgba(16, 23, 88, 0.288);
 }
 
 .secao-inicio video{
-    position: absolute;
     width: 100%;
     z-index: -99;
+    padding: 0;
 }
 
 .logo{
