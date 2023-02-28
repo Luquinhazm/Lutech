@@ -22,7 +22,7 @@
 }
 @media (max-width: 800px) {
     .wrapper-slogan{
-        bottom: 0;
+        bottom: 5%;
         padding: 16px;
        
     }
