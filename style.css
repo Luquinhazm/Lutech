@@ -37,7 +37,7 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* background-color: #1918422c ; */
+    background-color: #1918422c ;
 }
 
 .secao-inicio video{
