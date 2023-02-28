@@ -23,9 +23,11 @@
 @media (max-width: 800px) {
     .wrapper-slogan{
         bottom: 25%;
-        padding: 16px;
-       background-color:#19184257 ;
-       
+        padding: 16px; 
+    }
+
+    .secao-inicio{
+        background-color:#19184257 ;
     }
 }
 
