@@ -1,0 +1,45 @@
+@media (max-width: 1010px) {
+    .container-sobre{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .card-sobre{
+        border-radius: 0 0 8px 8px;
+        max-width: 640px;
+        width: 95%;
+        height: fit-content;
+    }
+    .imagem-cabo{
+        max-width: 640px;
+        width: 95%;
+        object-fit: cover;
+        border-radius: 8px 8px 0 0; 
+    }
+    .container-form{
+        flex-wrap: wrap-reverse;
+    }
+
+}
+@media (max-width: 800px) {
+    .wrapper-slogan{
+        bottom: 0;
+        padding: 16px;
+        background-color: #1918422c ;
+    }
+    .form-field textarea{
+        width: 500px;
+    }
+}
+
+
+@media (max-width: 1240px){
+    .text-contact{
+        max-width: 845px;
+    }
+}
+
+@media (max-width: 500px){
+    .form-field textarea{
+        width: 280px;
+    }
+}

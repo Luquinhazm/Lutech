@@ -1,6 +1,8 @@
 /* Estilos gerais */
 
 .header-principal{
+    position: absolute;
+    top: 10px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -12,11 +14,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(162, 165, 165, 0.322);
-    /* box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.911); */
+    background-color: rgba(16, 23, 88, 0.288);
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.911);
     padding: 0px 12px;
     height: 30px;
-    border-radius: 8px;
+    border-radius: 18px;
 }
 
 .header-principal ul{
@@ -35,33 +37,51 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: rgba(16, 23, 88, 0.288);
+    background-color: #1918422c ;
 }
 
 .secao-inicio video{
+    position: absolute;
     width: 100%;
     z-index: -99;
     padding: 0;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
 }
 
 .logo{
-    position: absolute;
+    padding: 12px;
     right: 60px;
-    bottom: 35%;
+    bottom: 20%;
     height: 240px;
     width: 300px;
 }
 
+.logo--sobre{
+    width: 300px;
+}
+
 .wrapper-slogan{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    align-items: center;
     position: absolute;
     font-weight: bold;
-    bottom: 34%;
+    
+    bottom: 20%;
     display: flex;
-    flex-direction: column;
-    max-width: 880px;
-    width: 95%;
+    width: 100%;
     padding: 12px 24px;
     color: rgba(255, 255, 255);
+}
+
+.wrapper-slogan div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
 }
 
 .wrapper-slogan h1{
@@ -84,6 +104,13 @@
     border: 0;
     font-size: 16px;
     text-transform: uppercase;
+    transition: all 0.5s;
+}
+
+.btn:hover{
+    background-color:rgba(16, 23, 88, 0.459) ;
+    border-radius: 6px;
+    color: #fff;
 }
 
 /* seção de sobre */
@@ -107,16 +134,18 @@
 }
 
 .container-sobre{
-    max-width: 1000px;
+  
     width: 95%;
     display: flex;
-    justify-content: space-between;
+    
+    justify-content: center;
     align-items: center;
     margin-top: 28px;
 }
 
 .imagem-cabo{
-    height: 300px;
+    max-height: 300px;
+    width: 100%;
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px
 }
@@ -130,7 +159,8 @@
     height: 300px;
     background-color:rgba(16, 23, 88, 0.288) ;
     color: white;
-    max-width: 560px;
+    max-width: 500px;
+    width: 100%;
     padding: 24px 18px;
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
@@ -143,6 +173,7 @@
 .secao-servicos{
     display: flex;
     flex-direction: column;
+    
     align-items: center;
     gap: 24px;
     margin: 48px 0;
@@ -156,6 +187,8 @@
 
 .secao-servicos ul{
     display: flex;
+    flex-wrap: wrap;
+    padding: 12px;
     gap: 18px;
     justify-content: center;
 }
@@ -189,7 +222,8 @@
   }
   
   .wrapperPergunta{
-    width: 990px;
+    max-width: 990px;
+    width: 95%;
     position: relative;
   }
   
@@ -215,16 +249,20 @@
     position: relative;
     background-color: #07035300;
   }
+
+  #btnSaibaMais:focus, #btnSaibaMais2:focus, #btnSaibaMais3:focus{
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+  }
   
   .fa-plus{
     font-size: 26px;
     transition: 0.5s all;
-   
   }
   
   #resposta1, #resposta2, #resposta3{
-    position: absolute;
-    top: 55px;
+    background-color: rgba(16, 23, 88, 0.288);
     color: #fff;
     z-index: 99;
     display: none;
@@ -240,6 +278,7 @@
     min-height: 80vh;
     flex-direction: column;
     justify-content: center;
+    margin: 32px 0;
 }
 
 .container-contato{
@@ -259,6 +298,7 @@
     gap: 16px;
     justify-content: space-around;
     width: 100%;
+    
 }
 
 .form-contact{
@@ -271,6 +311,7 @@
 
 .form-1-field{
     display: flex;
+    flex-wrap: wrap;
     max-width: 824px;
     width: 100%;
     gap: 14px;
@@ -292,11 +333,13 @@
 }
 
 .form-field textarea{
+    max-width: 745px;
     width: 745px;
     height: 125px;
     padding: 12px;
     border: none;
     border-bottom: solid 4px rgba(16, 23, 88, 0.288);
+    resize: none;
 }
 
 input::placeholder, textarea::placeholder{
@@ -341,8 +384,13 @@ input::placeholder, textarea::placeholder{
     width: 120px;
     height: 40px;
     cursor: pointer;
+    transition: all 0.5s;
 }
 
+.btn-send:hover{
+    background-color:rgba(16, 23, 88, 0.459) ;
+    border-radius: 4px;
+}
 
 footer {
     align-items: center;

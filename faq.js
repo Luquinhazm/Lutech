@@ -13,9 +13,6 @@ btnSaibaMais.addEventListener('click', ()=>{
                 buttonPlus.style.transform = 'rotate(135deg)'
                 buttonPlus2.style.transform = 'rotate(90deg)'
                 buttonPlus3.style.transform = 'rotate(90deg)'
-                boxPergunta.style.borderBottom = '124px solid rgba(16, 23, 88, 0.288)'
-                boxPergunta2.style.borderBottom = '4px solid rgba(16, 23, 88, 0.288)'
-                boxPergunta3.style.borderBottom = '4px solid rgba(16, 23, 88, 0.288)'
         } else{
                 resposta1.style.display = 'none'
                 buttonPlus.style.transform = 'rotate(90deg)'
@@ -38,9 +35,7 @@ btnSaibaMais2.addEventListener('click', ()=>{
                 buttonPlus.style.transform = 'rotate(90deg)'
                 buttonPlus3.style.transform = 'rotate(90deg)'
                 buttonPlus2.style.transform = 'rotate(135deg)'
-                boxPergunta.style.borderBottom = '4px solid rgba(16, 23, 88, 0.288)'
-                boxPergunta3.style.borderBottom = '4px solid rgba(16, 23, 88, 0.288)'
-                boxPergunta2.style.borderBottom = '124px solid rgba(16, 23, 88, 0.288)'
+                
         } else{
                 resposta2.style.display = 'none'
                 buttonPlus2.style.transform = 'rotate(90deg)'
@@ -65,7 +60,6 @@ btnSaibaMais3.addEventListener('click', ()=>{
                 buttonPlus.style.transform = 'rotate(90deg)'
                 buttonPlus2.style.transform = 'rotate(90deg)'
                 buttonPlus3.style.transform = 'rotate(135deg)'
-                boxPergunta3.style.borderBottom = '124px solid rgba(16, 23, 88, 0.288)'
         } else{
                 resposta3.style.display = 'none'
                 buttonPlus3.style.transform = 'rotate(90deg)'
