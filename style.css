@@ -45,9 +45,9 @@
     width: 100%;
     z-index: -99;
     padding: 0;
-    
+    height: 100vh;
     width: 100%;
-    
+    object-fit: cover;
 }
 
 .logo{
@@ -145,6 +145,7 @@
 
 .imagem-cabo{
     max-height: 300px;
+
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px
 }
