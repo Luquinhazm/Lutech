@@ -25,6 +25,7 @@
         bottom: 25%;
         padding: 16px;
        background-color:#19184257 ;
+       min-height: 90vh;
     }
 }
 
