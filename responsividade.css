@@ -24,22 +24,79 @@
     .wrapper-slogan{
         bottom: 0;
         padding: 16px;
-        background-color: #1918422c ;
-    }
-    .form-field textarea{
-        width: 500px;
+       
     }
 }
 
 
-@media (max-width: 1240px){
-    .text-contact{
-        max-width: 845px;
+@media (max-width:1024px){
+
+    .container-contato{
+        flex-wrap: wrap;
     }
 }
 
-@media (max-width: 500px){
+@media (max-width:850px){
+    .infos-footer{
+        flex-wrap: wrap;
+        gap: 24px;
+        justify-content: space-around;
+    }
+
+    .socials-media{
+        flex-direction: row;
+        text-align: start;
+        margin-top: 16px;
+        margin-left: 0px;
+    }
+
+    .form-1-field{
+        flex-wrap: wrap;
+        width: 80%;
+    }
+
     .form-field textarea{
         width: 280px;
     }
+}
+
+@media (max-width: 760px){
+   
+    .container-contact{
+        flex-wrap: wrap;
+    }
+
+    .text-contact{
+        padding: 30px;
+        max-width: 570px;
+        width: 100%;
+    }
+
+    .section-footer{
+        align-items: flex-start;
+    }
+
+    .infos-footer{
+        flex-direction: column;
+        margin-left: 32px;
+        align-items: flex-start;
+
+    }
+   
+    .contact-footer{
+        margin-top: 16px;
+    }
+
+    .cnpj{
+        margin-left: 32px;
+    }
+
+    .logo-footer{
+        margin-top: 0px;
+    }
+
+   .text-contact{
+    margin: 0;
+   }
+ 
 }
